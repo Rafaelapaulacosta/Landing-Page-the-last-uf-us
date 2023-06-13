@@ -1,2 +1,2 @@
 # Landing-Page-the-last-uf-us
-Projeto em HTML E CSS 
+Projeto feito em HTML E CSS para aprimorar o conhecimento. 
