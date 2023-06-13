@@ -1,0 +1,83 @@
+body{
+    background-color:rgb(13, 13, 14);
+    color: aliceblue;
+    font-family:sans-serif ;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+#title{
+    flex-direction: column;
+    line-height: 15px;
+}
+li{
+    display: inline-block;
+    margin: 30px;
+}
+a{
+    color:aliceblue
+}
+a:hover{
+    color: rgb(146, 10, 10);
+    transition: 0.3s all;
+
+}
+.Botao-conta{
+    border: 2px solid rgb(109, 8, 8);
+    padding: 10px;
+    border-radius: 20px;
+}
+.Botao-conta:hover{
+    background-color: rgb(107, 16, 16);
+    color: aliceblue;
+}
+h1{
+    font-weight: 200;
+}
+main{
+    display: flex;
+    flex-direction: row;
+    margin-top: 70px;
+}
+h2{
+    font-size: 56px;
+    line-height: 10px;
+    font-family: poppinsmedium;
+}
+span{
+    color: rgb(115, 7, 7);
+}
+p{
+    line-height: 20px;
+    max-width: 700px;
+    font-family:sans-serif;
+}
+img{
+    width: 600px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+form [ type="submit" ]{
+    height: 60px;
+    width: 180px;
+    background-color: rgb(99, 14, 14);
+
+}
+form [ type="submit" ]:hover{
+    cursor: pointer;
+    
+    
+}
+
+
